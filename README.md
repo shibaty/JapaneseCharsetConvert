@@ -3,7 +3,8 @@ CharsetConvert
 
 Japanese charset convert
 
-Javaの起動オプションに以下を付与することで、あまり難しいことは考えずに、ShiftJISとJISを扱えた
+Javaの起動オプションに以下を付与することで、あまり難しいことは考えずに、ShiftJISとJISを扱えた。  
+System.setPropertyだとうまく設定がきかない場合もあるので、起動オプションで指定するのが無難？
 
 ```
 -Dsun.nio.cs.map=windows-31j/Shift_JIS,x-windows-iso2022jp/ISO-2022-JP
